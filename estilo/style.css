@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,6 +20,18 @@ body{
 main{
     position: relative;
     height: 100vh;
+}
+section#tela-preta{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 436px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden
+    
 }
 main > section#telefone > iframe#tela{
     position: relative;
